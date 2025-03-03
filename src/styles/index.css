@@ -1,6 +1,6 @@
 .traffic-light {
     width: 60px;
-    height: 140px;
+    height: 260px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,13 @@
 
 .green-light {
     background-color: green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.purple-light {
+    background-color: purple;
     border-radius: 50%;
     width: 40px;
     height: 40px;
